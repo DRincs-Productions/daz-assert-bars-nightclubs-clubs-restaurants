@@ -1,0 +1,560 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/MintLeaf_S/SH2002_MintLeaf_S.dsf",
+		"type" : "prop",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T11:24:48Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "SH2002_MintLeaf_S-1",
+			"name" : "SH2002_MintLeaf_S",
+			"type" : "subdivision_surface",
+			"edge_interpolation_mode" : "edges_only",
+			"subd_normal_smoothing_mode" : "smooth_all_normals",
+			"vertices" : {
+				"count" : 67,
+				"values" : [
+					[ -2.271407, 7.541767, -0.117508 ],
+					[ -0.664503, 6.965599, 0.374133 ],
+					[ -1.990299, 7.654013, -1.073123 ],
+					[ -0.420653, 6.986217, -0.66391 ],
+					[ -0.797764, 7.305838, -1.013999 ],
+					[ -1.080824, 7.224723, 0.516139 ],
+					[ -0.9338541, 7.135664, -0.249444 ],
+					[ -2.737243, 7.451397, -0.885553 ],
+					[ -1.778238, 7.464338, -0.4887491 ],
+					[ -1.3964, 7.568664, -1.072391 ],
+					[ -1.696548, 7.464077, 0.256126 ],
+					[ -0.301631, 6.621078, -0.029441 ],
+					[ -0.419263, 6.805905, -0.112216 ],
+					[ -0.27688, 6.621727, -0.125546 ],
+					[ -2.292365, 7.526979, -0.070323 ],
+					[ -0.6737061, 6.94339, 0.412384 ],
+					[ -2.0246, 7.536054, 0.079285 ],
+					[ -2.487328, 7.53129, -0.414505 ],
+					[ -0.5136771, 6.856427, 0.187966 ],
+					[ -1.973034, 7.658329, -1.108745 ],
+					[ -0.3982061, 6.957895, -0.699128 ],
+					[ -1.714223, 7.653738, -1.080666 ],
+					[ -0.539932, 7.123306, -0.8311411 ],
+					[ -0.8111581, 7.078294, 0.471223 ],
+					[ -0.999426, 7.162031, 0.176712 ],
+					[ -0.805202, 7.285385, -1.136788 ],
+					[ -1.131533, 7.190719, 0.622265 ],
+					[ -0.843995, 7.20694, -0.667289 ],
+					[ -2.338488, 7.59035, -1.023358 ],
+					[ -2.871148, 7.39165, -0.9604911 ],
+					[ -2.230692, 7.526203, -0.6529471 ],
+					[ -1.338795, 7.322822, -0.357231 ],
+					[ -1.087085, 7.453494, -1.072291 ],
+					[ -1.378955, 7.356808, 0.423091 ],
+					[ -1.347543, 7.537694, -1.159452 ],
+					[ -1.768351, 7.462679, -0.07572699 ],
+					[ -1.691926, 7.415645, 0.358764 ],
+					[ -1.597111, 7.521939, -0.8348981 ],
+					[ -0.5849071, 6.936894, -0.156444 ],
+					[ -0.359295, 6.862234, -0.421522 ],
+					[ -0.379467, 6.761082, -0.011532 ],
+					[ -0.344377, 6.765059, -0.182158 ],
+					[ -0.313489, 6.584467, -0.011934 ],
+					[ -0.277397, 6.58461, -0.146401 ],
+					[ -0.261245, 6.580873, -0.07000899 ],
+					[ -0.5096081, 6.975474, -0.464885 ],
+					[ -0.484807, 6.795794, 0.191276 ],
+					[ -2.650949, 7.461621, -0.511219 ],
+					[ -1.63478, 7.632566, -1.141525 ],
+					[ -0.888965, 7.071822, 0.5698161 ],
+					[ -1.376456, 7.336282, 0.084214 ],
+					[ -0.570351, 7.125692, -0.959173 ],
+					[ -1.402352, 7.309717, 0.528423 ],
+					[ -0.639865, 6.954444, 0.158012 ],
+					[ -0.323902, 6.796624, -0.407924 ],
+					[ -2.489063, 7.529268, -1.089424 ],
+					[ -1.995397, 7.593416, -0.922261 ],
+					[ -1.067642, 7.422343, -1.180711 ],
+					[ -2.172502, 7.526711, -0.259357 ],
+					[ -1.99076, 7.495345, 0.183766 ],
+					[ -1.209903, 7.391106, -0.770265 ],
+					[ -0.305792, 6.676847, -0.08164301 ],
+					[ -0.2458385, 6.499092, -0.04089031 ],
+					[ -0.2335205, 6.499004, -0.08754402 ],
+					[ -0.2610135, 6.492616, -0.03610884 ],
+					[ -0.2440637, 6.492631, -0.09922824 ],
+					[ -0.2350309, 6.501369, -0.06297891 ]
+				]
+			},
+			"polygon_groups" : {
+				"count" : 1,
+				"values" : [
+					"MintLeaf_S1"
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 1,
+				"values" : [
+					"mint"
+				]
+			},
+			"polylist" : {
+				"count" : 54,
+				"values" : [
+					[ 0, 0, 0, 17, 47, 14 ],
+					[ 0, 0, 1, 23, 49, 15 ],
+					[ 0, 0, 2, 21, 48, 19 ],
+					[ 0, 0, 2, 28, 56, 21 ],
+					[ 0, 0, 3, 39, 54, 20 ],
+					[ 0, 0, 4, 27, 45, 22 ],
+					[ 0, 0, 4, 32, 60, 27 ],
+					[ 0, 0, 5, 26, 49, 23 ],
+					[ 0, 0, 5, 33, 52, 26 ],
+					[ 0, 0, 6, 31, 50, 24 ],
+					[ 0, 0, 6, 38, 45, 27 ],
+					[ 0, 0, 7, 29, 47, 17 ],
+					[ 0, 0, 7, 30, 56, 28 ],
+					[ 0, 0, 8, 35, 50, 31 ],
+					[ 0, 0, 8, 37, 56, 30 ],
+					[ 0, 0, 9, 34, 48, 21 ],
+					[ 0, 0, 9, 37, 60, 32 ],
+					[ 0, 0, 10, 35, 58, 16 ],
+					[ 0, 0, 10, 36, 52, 33 ],
+					[ 0, 0, 11, 40, 53, 18 ],
+					[ 0, 0, 11, 44, 61, 40 ],
+					[ 0, 0, 11, 62, 66, 44 ],
+					[ 0, 0, 12, 41, 45, 38 ],
+					[ 0, 0, 12, 61, 41 ],
+					[ 0, 0, 13, 43, 54, 39 ],
+					[ 0, 0, 13, 63, 65, 43 ],
+					[ 0, 0, 14, 59, 16, 0 ],
+					[ 0, 0, 15, 46, 18, 1 ],
+					[ 0, 0, 16, 58, 17, 0 ],
+					[ 0, 0, 16, 59, 36, 10 ],
+					[ 0, 0, 17, 58, 30, 7 ],
+					[ 0, 0, 18, 46, 42, 11 ],
+					[ 0, 0, 18, 53, 23, 1 ],
+					[ 0, 0, 19, 55, 28, 2 ],
+					[ 0, 0, 20, 51, 22, 3 ],
+					[ 0, 0, 21, 56, 37, 9 ],
+					[ 0, 0, 22, 45, 39, 3 ],
+					[ 0, 0, 22, 51, 25, 4 ],
+					[ 0, 0, 23, 53, 24, 5 ],
+					[ 0, 0, 24, 50, 33, 5 ],
+					[ 0, 0, 24, 53, 38, 6 ],
+					[ 0, 0, 25, 57, 32, 4 ],
+					[ 0, 0, 27, 60, 31, 6 ],
+					[ 0, 0, 28, 55, 29, 7 ],
+					[ 0, 0, 30, 58, 35, 8 ],
+					[ 0, 0, 31, 60, 37, 8 ],
+					[ 0, 0, 32, 57, 34, 9 ],
+					[ 0, 0, 33, 50, 35, 10 ],
+					[ 0, 0, 38, 53, 40, 12 ],
+					[ 0, 0, 39, 45, 41, 13 ],
+					[ 0, 0, 40, 61, 12 ],
+					[ 0, 0, 41, 61, 44, 13 ],
+					[ 0, 0, 42, 64, 62, 11 ],
+					[ 0, 0, 44, 66, 63, 13 ]
+				]
+			},
+			"default_uv_set" : "/data/esha/Cocktails/MintLeaf_S/UV%20Sets/esha/Base/default.dsf#default",
+			"extra" : [
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"value" : 1,
+								"min" : 0,
+								"max" : 6,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"value" : 0,
+								"min" : 0,
+								"max" : 9,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDNormalSmoothing",
+								"type" : "enum",
+								"label" : "SubDivision Normals",
+								"value" : 0,
+								"enum_values" : [ "Smoothed", "Preserve Cage" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "SH2002_MintLeaf_S",
+			"name" : "SH2002_MintLeaf_S",
+			"type" : "node",
+			"label" : "Mint Leaf S",
+			"rotation_order" : "YXZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : -1.552334,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 6.492616,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : -0.279223,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : -1.552334,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 7.658329,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : -0.279223,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"presentation" : {
+				"type" : "Prop",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"extra" : [
+				{
+					"type" : "studio_node_channels",
+					"version" : 2,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Misc"
+						},
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Transform",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/General/Misc"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Display/Simulation"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,74 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Straw/Morphs/esha/Base/Tip%20Length.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T13:11:20Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Tip Length",
+			"name" : "Tip Length",
+			"parent" : "/data/esha/Cocktails/Straw/Straw.dsf#Straw-1",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Length Tip",
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : -0.5,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Actor/Style & Adjustments",
+			"morph" : {
+				"vertex_count" : 280,
+				"deltas" : {
+					"count" : 16,
+					"values" : [
+						[ 24, 0, 5.000002, 5.147649e-15 ],
+						[ 25, -6.556511e-07, 5.000002, -3.576279e-07 ],
+						[ 26, 0, 5.000002, 0 ],
+						[ 27, -3.576279e-07, 5.000002, -3.576279e-07 ],
+						[ 28, 0, 5.000002, 5.190512e-15 ],
+						[ 29, -3.576279e-07, 5.000002, 3.576279e-07 ],
+						[ 30, 0, 5.000002, 0 ],
+						[ 31, -6.556511e-07, 5.000002, 3.576279e-07 ],
+						[ 96, -6.556511e-07, 2.46209, 3.576279e-07 ],
+						[ 97, 0, 2.46209, 0 ],
+						[ 98, -3.576279e-07, 2.46209, 3.576279e-07 ],
+						[ 99, 0, 2.46209, 5.190512e-15 ],
+						[ 100, -3.576279e-07, 2.46209, -3.576279e-07 ],
+						[ 101, 0, 2.46209, 0 ],
+						[ 102, -6.556511e-07, 2.46209, -3.576279e-07 ],
+						[ 103, 0, 2.46209, 5.147649e-15 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Tip Length-1",
+				"url" : "#Tip%20Length"
+			}
+		]
+	}
+}

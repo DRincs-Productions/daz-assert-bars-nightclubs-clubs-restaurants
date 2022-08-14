@@ -1,0 +1,637 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Olive/SH2002_Olive.dsf",
+		"type" : "prop",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T11:22:23Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "SH2002_Olive-1",
+			"name" : "SH2002_Olive",
+			"type" : "subdivision_surface",
+			"edge_interpolation_mode" : "edges_only",
+			"subd_normal_smoothing_mode" : "smooth_all_normals",
+			"vertices" : {
+				"count" : 98,
+				"values" : [
+					[ 0, -2.57164, 0 ],
+					[ 0, -2.66164, -1.04855 ],
+					[ -0.7414392, -2.66164, -0.7414392 ],
+					[ -1.04855, -2.66164, 0 ],
+					[ -0.7414392, -2.66164, 0.7414392 ],
+					[ 0, -2.66164, 1.04855 ],
+					[ 0.7414392, -2.66164, 0.7414392 ],
+					[ 1.04855, -2.66164, 0 ],
+					[ 0.7414392, -2.66164, -0.7414392 ],
+					[ 0, -2.12132, -1.68793 ],
+					[ -1.19355, -2.12132, -1.19355 ],
+					[ -1.68793, -2.12132, 0 ],
+					[ -1.19355, -2.12132, 1.19355 ],
+					[ 0, -2.12132, 1.68793 ],
+					[ 1.19355, -2.12132, 1.19355 ],
+					[ 1.68793, -2.12132, 0 ],
+					[ 1.19355, -2.12132, -1.19355 ],
+					[ 0, -1.14805, -2.0583 ],
+					[ -1.45544, -1.14805, -1.45544 ],
+					[ -2.0583, -1.14805, 0 ],
+					[ -1.45544, -1.14805, 1.45544 ],
+					[ 0, -1.14805, 2.0583 ],
+					[ 1.45544, -1.14805, 1.45544 ],
+					[ 2.0583, -1.14805, 0 ],
+					[ 1.45544, -1.14805, -1.45544 ],
+					[ 0, 0, -2.288 ],
+					[ -1.61786, 0, -1.61786 ],
+					[ -2.288, 0, 0 ],
+					[ -1.61786, 0, 1.61786 ],
+					[ 0, 0, 2.288 ],
+					[ 1.61786, 0, 1.61786 ],
+					[ 2.288, 0, 0 ],
+					[ 1.61786, 0, -1.61786 ],
+					[ 0, 1.14805, -2.02718 ],
+					[ -1.43343, 1.14805, -1.43343 ],
+					[ -2.02718, 1.14805, 0 ],
+					[ -1.43343, 1.14805, 1.43343 ],
+					[ 0, 1.14805, 2.02718 ],
+					[ 1.43343, 1.14805, 1.43343 ],
+					[ 2.02718, 1.14805, 0 ],
+					[ 1.43343, 1.14805, -1.43343 ],
+					[ 0, 2.12132, -1.492 ],
+					[ -1.055, 2.12132, -1.055 ],
+					[ -1.492, 2.12132, 0 ],
+					[ -1.055, 2.12132, 1.055 ],
+					[ 0, 2.12132, 1.492 ],
+					[ 1.055, 2.12132, 1.055 ],
+					[ 1.492, 2.12132, 0 ],
+					[ 1.055, 2.12132, -1.055 ],
+					[ 0, -0.948361, 0.765367 ],
+					[ 0.541196, -0.948361, 0.541196 ],
+					[ 0.765367, -0.948361, 0 ],
+					[ 0.541196, -0.948361, -0.541196 ],
+					[ 0, -0.948361, -0.765367 ],
+					[ -0.541196, -0.948361, -0.541196 ],
+					[ -0.765367, -0.948361, 0 ],
+					[ -0.541196, -0.948361, 0.541196 ],
+					[ 0, -1.51836, 0.3750298 ],
+					[ 0.2651859, -1.51836, 0.2651859 ],
+					[ 0.3750298, -1.51836, 0 ],
+					[ 0.2651859, -1.51836, -0.2651859 ],
+					[ 0, -1.51836, -0.3750298 ],
+					[ -0.2651859, -1.51836, -0.2651859 ],
+					[ -0.3750298, -1.51836, 0 ],
+					[ -0.2651859, -1.51836, 0.2651859 ],
+					[ -0.541196, 0.9116393, 0.541196 ],
+					[ 0, 0.9116393, 0.765367 ],
+					[ 0.541196, 0.9116393, 0.541196 ],
+					[ 0.765367, 0.9116393, 0 ],
+					[ 0.541196, 0.9116393, -0.541196 ],
+					[ 0, 0.9116393, -0.765367 ],
+					[ -0.541196, 0.9116393, -0.541196 ],
+					[ -0.765367, 0.9116393, 0 ],
+					[ 0, 2.54164, -0.765367 ],
+					[ 0, 2.573771, -0.84306 ],
+					[ -0.596134, 2.573771, -0.596134 ],
+					[ -0.541196, 2.54164, -0.541196 ],
+					[ -0.84306, 2.573771, 0 ],
+					[ -0.765367, 2.54164, 0 ],
+					[ -0.596134, 2.573771, 0.596134 ],
+					[ -0.541196, 2.54164, 0.541196 ],
+					[ 0, 2.573771, 0.84306 ],
+					[ 0, 2.54164, 0.765367 ],
+					[ 0.596134, 2.573771, 0.596134 ],
+					[ 0.541196, 2.54164, 0.541196 ],
+					[ 0.84306, 2.573771, 0 ],
+					[ 0.765367, 2.54164, 0 ],
+					[ 0.596134, 2.573771, -0.596134 ],
+					[ 0.541196, 2.54164, -0.541196 ],
+					[ 0, -1.58836, 0 ],
+					[ 0, -2.88582, -0.382683 ],
+					[ -0.270598, -2.88582, -0.270598 ],
+					[ -0.382683, -2.88582, 0 ],
+					[ -0.270598, -2.88582, 0.270598 ],
+					[ 0, -2.88582, 0.382683 ],
+					[ 0.270598, -2.88582, 0.270598 ],
+					[ 0.382683, -2.88582, 0 ],
+					[ 0.270598, -2.88582, -0.270598 ]
+				]
+			},
+			"polygon_groups" : {
+				"count" : 1,
+				"values" : [
+					"Olive"
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 1,
+				"values" : [
+					"olive"
+				]
+			},
+			"polylist" : {
+				"count" : 100,
+				"values" : [
+					[ 0, 0, 9, 1, 2, 10 ],
+					[ 0, 0, 10, 2, 3, 11 ],
+					[ 0, 0, 11, 3, 4, 12 ],
+					[ 0, 0, 12, 4, 5, 13 ],
+					[ 0, 0, 13, 5, 6, 14 ],
+					[ 0, 0, 14, 6, 7, 15 ],
+					[ 0, 0, 15, 7, 8, 16 ],
+					[ 0, 0, 16, 8, 1, 9 ],
+					[ 0, 0, 17, 9, 10, 18 ],
+					[ 0, 0, 18, 10, 11, 19 ],
+					[ 0, 0, 19, 11, 12, 20 ],
+					[ 0, 0, 20, 12, 13, 21 ],
+					[ 0, 0, 21, 13, 14, 22 ],
+					[ 0, 0, 22, 14, 15, 23 ],
+					[ 0, 0, 23, 15, 16, 24 ],
+					[ 0, 0, 24, 16, 9, 17 ],
+					[ 0, 0, 25, 17, 18, 26 ],
+					[ 0, 0, 26, 18, 19, 27 ],
+					[ 0, 0, 27, 19, 20, 28 ],
+					[ 0, 0, 28, 20, 21, 29 ],
+					[ 0, 0, 29, 21, 22, 30 ],
+					[ 0, 0, 30, 22, 23, 31 ],
+					[ 0, 0, 31, 23, 24, 32 ],
+					[ 0, 0, 32, 24, 17, 25 ],
+					[ 0, 0, 33, 25, 26, 34 ],
+					[ 0, 0, 34, 26, 27, 35 ],
+					[ 0, 0, 35, 27, 28, 36 ],
+					[ 0, 0, 36, 28, 29, 37 ],
+					[ 0, 0, 37, 29, 30, 38 ],
+					[ 0, 0, 38, 30, 31, 39 ],
+					[ 0, 0, 39, 31, 32, 40 ],
+					[ 0, 0, 40, 32, 25, 33 ],
+					[ 0, 0, 41, 33, 34, 42 ],
+					[ 0, 0, 42, 34, 35, 43 ],
+					[ 0, 0, 43, 35, 36, 44 ],
+					[ 0, 0, 44, 36, 37, 45 ],
+					[ 0, 0, 45, 37, 38, 46 ],
+					[ 0, 0, 46, 38, 39, 47 ],
+					[ 0, 0, 47, 39, 40, 48 ],
+					[ 0, 0, 48, 40, 33, 41 ],
+					[ 0, 0, 72, 78, 80, 65 ],
+					[ 0, 0, 71, 76, 78, 72 ],
+					[ 0, 0, 70, 73, 76, 71 ],
+					[ 0, 0, 69, 88, 73, 70 ],
+					[ 0, 0, 68, 86, 88, 69 ],
+					[ 0, 0, 67, 84, 86, 68 ],
+					[ 0, 0, 66, 82, 84, 67 ],
+					[ 0, 0, 65, 80, 82, 66 ],
+					[ 0, 0, 56, 49, 57, 64 ],
+					[ 0, 0, 51, 52, 60, 59 ],
+					[ 0, 0, 66, 49, 56, 65 ],
+					[ 0, 0, 48, 41, 74, 87 ],
+					[ 0, 0, 67, 50, 49, 66 ],
+					[ 0, 0, 48, 87, 85, 47 ],
+					[ 0, 0, 68, 51, 50, 67 ],
+					[ 0, 0, 46, 47, 85, 83 ],
+					[ 0, 0, 69, 52, 51, 68 ],
+					[ 0, 0, 46, 83, 81, 45 ],
+					[ 0, 0, 70, 53, 52, 69 ],
+					[ 0, 0, 44, 45, 81, 79 ],
+					[ 0, 0, 71, 54, 53, 70 ],
+					[ 0, 0, 44, 79, 77, 43 ],
+					[ 0, 0, 72, 55, 54, 71 ],
+					[ 0, 0, 42, 43, 77, 75 ],
+					[ 0, 0, 65, 56, 55, 72 ],
+					[ 0, 0, 42, 75, 74, 41 ],
+					[ 0, 0, 74, 75, 76, 73 ],
+					[ 0, 0, 75, 77, 78, 76 ],
+					[ 0, 0, 77, 79, 80, 78 ],
+					[ 0, 0, 79, 81, 82, 80 ],
+					[ 0, 0, 84, 82, 81, 83 ],
+					[ 0, 0, 86, 84, 83, 85 ],
+					[ 0, 0, 88, 86, 85, 87 ],
+					[ 0, 0, 87, 74, 73, 88 ],
+					[ 0, 0, 53, 61, 60, 52 ],
+					[ 0, 0, 55, 56, 64, 63 ],
+					[ 0, 0, 49, 50, 58, 57 ],
+					[ 0, 0, 51, 59, 58, 50 ],
+					[ 0, 0, 53, 54, 62, 61 ],
+					[ 0, 0, 55, 63, 62, 54 ],
+					[ 0, 0, 89, 64, 57, 58 ],
+					[ 0, 0, 89, 58, 59, 60 ],
+					[ 0, 0, 89, 60, 61, 62 ],
+					[ 0, 0, 89, 62, 63, 64 ],
+					[ 0, 0, 91, 2, 1, 90 ],
+					[ 0, 0, 90, 0, 91 ],
+					[ 0, 0, 92, 3, 2, 91 ],
+					[ 0, 0, 91, 0, 92 ],
+					[ 0, 0, 93, 4, 3, 92 ],
+					[ 0, 0, 92, 0, 93 ],
+					[ 0, 0, 94, 5, 4, 93 ],
+					[ 0, 0, 93, 0, 94 ],
+					[ 0, 0, 95, 6, 5, 94 ],
+					[ 0, 0, 94, 0, 95 ],
+					[ 0, 0, 96, 7, 6, 95 ],
+					[ 0, 0, 95, 0, 96 ],
+					[ 0, 0, 97, 8, 7, 96 ],
+					[ 0, 0, 96, 0, 97 ],
+					[ 0, 0, 90, 1, 8, 97 ],
+					[ 0, 0, 97, 0, 90 ]
+				]
+			},
+			"default_uv_set" : "/data/esha/Cocktails/Olive/UV%20Sets/esha/Base/default.dsf#default",
+			"extra" : [
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"label" : "View SubD Level",
+								"value" : 1,
+								"min" : 0,
+								"max" : 5,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDRenderLevel",
+								"type" : "int",
+								"label" : "Render SubD Level (Minimum)",
+								"value" : 0,
+								"min" : 0,
+								"max" : 9,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"label" : "SubDivision Algorithm",
+								"value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"label" : "Edge Interpolation",
+								"value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDNormalSmoothing",
+								"type" : "enum",
+								"label" : "SubDivision Normals",
+								"value" : 0,
+								"enum_values" : [ "Smoothed", "Preserve Cage" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "SH2002_Olive",
+			"name" : "SH2002_Olive",
+			"type" : "node",
+			"label" : "Olive",
+			"rotation_order" : "YXZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 2.573771,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 0.5,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"presentation" : {
+				"type" : "Prop",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"extra" : [
+				{
+					"type" : "studio_node_channels",
+					"version" : 2,
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"label" : "Point At",
+								"value" : 1,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Misc"
+						},
+						{
+							"channel" : {
+								"id" : "Disable Transform",
+								"type" : "bool",
+								"label" : "Disable Transform",
+								"visible" : false,
+								"value" : false
+							},
+							"group" : "/General/Misc"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"label" : "Visible",
+								"value" : true
+							},
+							"group" : "/Display"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Viewport",
+								"type" : "bool",
+								"label" : "Visible in Viewport",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"label" : "Selectable (in Viewport)",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"label" : "Visible in Render",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"label" : "Cast Shadows",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible in Simulation",
+								"type" : "bool",
+								"label" : "Visible in Simulation",
+								"value" : true
+							},
+							"group" : "/Display/Simulation"
+						}
+					]
+				}
+			]
+		}
+	]
+}

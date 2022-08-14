@@ -1,0 +1,49 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/CitrusZest3/Morphs/esha/Base/Bend%20Side.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "0.0",
+		"modified" : "2020-03-10T10:47:55Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Bend Side",
+			"name" : "Bend Side",
+			"parent" : "/data/esha/Cocktails/CitrusZest3/SH2002_CitrusZest3.dsf#SH2002_CitrusZest3",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Bend Side",
+				"label" : "Bend Side",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style & Adjustments"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Bend Side-1",
+				"url" : "#Bend%20Side"
+			}
+		]
+	}
+}

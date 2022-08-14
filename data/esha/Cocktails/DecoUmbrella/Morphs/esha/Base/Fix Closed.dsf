@@ -1,0 +1,90 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/Fix%20Closed.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T13:05:17Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Fix Closed",
+			"name" : "Fix Closed",
+			"parent" : "/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#UmbrellaHR",
+			"presentation" : {
+				"type" : "Modifier/Shape",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Value",
+				"label" : "Fix Closed",
+				"visible" : false,
+				"auto_follow" : true,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.01
+			},
+			"group" : "/Actor/Style & Adjustments",
+			"formulas" : [
+				{
+					"output" : "SH2002_Umbrella_694:#Fix%20Closed?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Stick:/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/Stick_Close.dsf#Close?value" },
+						{ "op" : "push", "val" : [ 0, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.5, 0.15, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.75, 0.4, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 0.9, 0.6, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 5 },
+						{ "op" : "spline_tcb" }
+					]
+				}
+			],
+			"morph" : {
+				"vertex_count" : 870,
+				"deltas" : {
+					"count" : 16,
+					"values" : [
+						[ 0, -0.09467697, 0.0220871, 0.09467745 ],
+						[ 3, -0.09467733, 0.0220871, 0.09468091 ],
+						[ 14, 0.09468079, 0.02208805, -0.09467876 ],
+						[ 17, 0.09468186, 0.02208805, -0.09467995 ],
+						[ 28, 0.09468091, 0.0220871, 0.09468043 ],
+						[ 31, 0.09467983, 0.0220871, 0.09467745 ],
+						[ 42, -0.09467733, 0.0220871, -0.09468091 ],
+						[ 45, -0.09467793, 0.0220871, -0.09467876 ],
+						[ 136, -0.1338964, 0.02208805, 7.450581e-09 ],
+						[ 139, -0.1338964, 0.02208805, 0 ],
+						[ 150, 0.1338959, 0.0220871, -3.72529e-08 ],
+						[ 153, 0.1338959, 0.0220871, -2.980232e-08 ],
+						[ 164, 0, 0.0220871, 0.1338968 ],
+						[ 167, 0, 0.0220871, 0.1338968 ],
+						[ 178, 2.235174e-08, 0.0220871, -0.1338973 ],
+						[ 181, 3.72529e-08, 0.0220871, -0.1338973 ]
+					]
+				}
+			}
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Fix Closed-1",
+				"url" : "#Fix%20Closed"
+			}
+		]
+	}
+}

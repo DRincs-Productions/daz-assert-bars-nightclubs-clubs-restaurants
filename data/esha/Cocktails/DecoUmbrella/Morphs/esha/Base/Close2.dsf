@@ -1,0 +1,124 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/Close2.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T13:05:17Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Close2",
+			"name" : "Close2",
+			"parent" : "/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#SH2002_Umbrella_694",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Close2",
+				"label" : "Close2",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style & Adjustments",
+			"formulas" : [
+				{
+					"output" : "SH2002_Umbrella_694:#Close2?value",
+					"operations" : [
+						{ "op" : "push", "url" : "Stick:/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/Stick_Close.dsf#Close?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib1a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib1a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib2a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib2a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib3a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib3a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib4a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib4a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib5a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib5a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib6a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib6a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib7a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib7a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib8a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib8a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Close2?value" },
+						{ "op" : "push", "val" : 90 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Close2-1",
+				"url" : "#Close2"
+			}
+		]
+	}
+}

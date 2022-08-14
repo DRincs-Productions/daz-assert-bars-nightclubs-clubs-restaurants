@@ -1,0 +1,115 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Physalis/Morphs/esha/Base/Leaves%20All%20Close.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T10:55:29Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Leaves All Close",
+			"name" : "Leaves All Close",
+			"parent" : "/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#SH2002_Physalis",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Leaves All Close",
+				"label" : "Leaves All Close",
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style & Adjustments",
+			"formulas" : [
+				{
+					"output" : "Leaf1:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf1?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : 115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf1a:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf1a?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : 68.57143 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf3:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf3?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : -115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf3a:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf3a?rotation/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : -88 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf2:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf2?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : -115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf2a:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf2a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : -100.7143 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf4:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf4?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : 115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf4a:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf4a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaves%20All%20Close?value" },
+						{ "op" : "push", "val" : 87 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Leaves All Close-1",
+				"url" : "#Leaves%20All%20Close"
+			}
+		]
+	}
+}

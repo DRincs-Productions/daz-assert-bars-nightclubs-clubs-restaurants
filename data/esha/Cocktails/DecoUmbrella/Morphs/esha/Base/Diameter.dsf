@@ -1,0 +1,307 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/Diameter.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T13:05:17Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Diameter",
+			"name" : "Diameter",
+			"parent" : "/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#SH2002_Umbrella_694",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Diameter",
+				"label" : "Diameter",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style & Adjustments",
+			"formulas" : [
+				{
+					"output" : "Rib1:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib1?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib1:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib1?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib2:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib2?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib2:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib2?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib3:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib3?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib3:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib3?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib4:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib4?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib4:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib4?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib5:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib5?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib5:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib5?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib6:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib6?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib6:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib6?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib7:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib7?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib7:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib7?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib8:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib8?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib8:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib8?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib1a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib1a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib1a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib1a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib2a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib2a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib2a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib2a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib3a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib3a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib3a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib3a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib4a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib4a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib4a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib4a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib5a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib5a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib5a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib5a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib6a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib6a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib6a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib6a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib7a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib7a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib7a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib7a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib8a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib8a?scale/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Rib8a:/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#Rib8a?scale/z",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Umbrella_694:#Diameter?value" },
+						{ "op" : "push", "val" : 0.55 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Diameter-1",
+				"url" : "#Diameter"
+			}
+		]
+	}
+}

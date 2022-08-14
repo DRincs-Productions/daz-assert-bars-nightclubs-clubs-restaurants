@@ -1,0 +1,69 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Cocktail_Mojito_HD/Morphs/esha/Base/Hide%20Bubbles.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-04-30T16:47:59Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Hide Bubbles",
+			"name" : "Hide Bubbles",
+			"parent" : "/data/esha/Cocktails/Cocktail_Mojito_HD/SH2002_CocktailMojito.dsf#SH2002_CocktailMojito",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Hide Bubbles",
+				"label" : "Hide Bubbles",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style",
+			"formulas" : [
+				{
+					"output" : "SH2002_CocktailMojito:#Hide%20Bubbles?value",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMojito:/data/esha/Cocktails/Cocktail_Mojito_HD/Morphs/esha/Base/Liquid%20Type.dsf#Liquid%20Type?value" },
+						{ "op" : "push", "val" : [ 0, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_tcb" }
+					]
+				},
+				{
+					"output" : "Bubbles:/data/esha/Cocktails/Cocktail_Mojito_HD/SH2002_CocktailMojito.dsf#Bubbles?extra/studio_node_channels/channels/Visible",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMojito:#Hide%20Bubbles?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Hide Bubbles-1",
+				"url" : "#Hide%20Bubbles"
+			}
+		]
+	}
+}

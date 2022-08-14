@@ -1,0 +1,45 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Cocktail_Daiquiri_HD/Morphs/esha/Base/Liquid%20Type.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-04-30T16:47:42Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Liquid Type",
+			"name" : "Liquid Type",
+			"parent" : "/data/esha/Cocktails/Cocktail_Daiquiri_HD/SH2002_CocktailDaiquiri.dsf#SH2002_CocktailDaiquiri",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "enum",
+				"name" : "Liquid Type",
+				"label" : "Liquid Type",
+				"value" : 1,
+				"enum_values" : [ "Still", "Sparkling" ]
+			},
+			"group" : "/Actor/Style"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Liquid Type-1",
+				"url" : "#Liquid%20Type"
+			}
+		]
+	}
+}

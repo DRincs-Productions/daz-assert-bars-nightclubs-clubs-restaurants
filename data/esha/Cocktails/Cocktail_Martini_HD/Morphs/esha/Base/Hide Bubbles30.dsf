@@ -1,0 +1,80 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Cocktail_Martini_HD/Morphs/esha/Base/Hide%20Bubbles30.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-04-30T16:47:32Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Hide Bubbles30",
+			"name" : "Hide Bubbles30",
+			"parent" : "/data/esha/Cocktails/Cocktail_Martini_HD/SH2002_CocktailMartini.dsf#SH2002_CocktailMartini",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Hide Bubbles30",
+				"label" : "Hide Bubbles30",
+				"visible" : false,
+				"value" : 0,
+				"min" : 0,
+				"max" : 1,
+				"clamped" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style",
+			"formulas" : [
+				{
+					"output" : "SH2002_CocktailMartini:#Hide%20Bubbles30?value",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMartini:/data/esha/Cocktails/Cocktail_Martini_HD/Morphs/esha/Base/Liquid%20Type.dsf#Liquid%20Type?value" },
+						{ "op" : "push", "val" : [ 0, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 2 },
+						{ "op" : "spline_tcb" }
+					]
+				},
+				{
+					"output" : "SH2002_CocktailMartini:#Hide%20Bubbles30?value",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMartini:/data/esha/Cocktails/Cocktail_Martini_HD/Morphs/esha/Base/Tilt%20Control.dsf#Tilt%20Control?value" },
+						{ "op" : "push", "val" : [ 0, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 0, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 2, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 3 },
+						{ "op" : "spline_tcb" }
+					]
+				},
+				{
+					"output" : "Bubbles30:/data/esha/Cocktails/Cocktail_Martini_HD/SH2002_CocktailMartini.dsf#Bubbles30?extra/studio_node_channels/channels/Visible",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMartini:#Hide%20Bubbles30?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Hide Bubbles30-1",
+				"url" : "#Hide%20Bubbles30"
+			}
+		]
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Cocktail_Margarita_Low/Morphs/esha/Base/Tilt%20Control.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-04-30T17:05:55Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Tilt Control",
+			"name" : "Tilt Control",
+			"parent" : "/data/esha/Cocktails/Cocktail_Margarita_Low/SH2002_CocktailMargarita.dsf#SH2002_CocktailMargarita",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.3529412, 0.3529412, 0.3529412 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "enum",
+				"name" : "Tilt Control",
+				"label" : "Tilt Control",
+				"value" : 0,
+				"enum_values" : [ "Upright", "Tilt 15 degrees", "Tilt 30 degrees" ]
+			},
+			"group" : "/Actor/Style",
+			"formulas" : [
+				{
+					"output" : "Drink:/data/esha/Cocktails/Cocktail_Margarita_Low/SH2002_CocktailMargarita.dsf#Drink?extra/studio_node_channels/channels/Visible",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMargarita:#Tilt%20Control?value" },
+						{ "op" : "push", "val" : [ 0, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, -1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 2, -1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 3 },
+						{ "op" : "spline_tcb" }
+					]
+				},
+				{
+					"output" : "Drink30:/data/esha/Cocktails/Cocktail_Margarita_Low/SH2002_CocktailMargarita.dsf#Drink30?extra/studio_node_channels/channels/Visible",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMargarita:#Tilt%20Control?value" },
+						{ "op" : "push", "val" : [ 0, -1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, -1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 2, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 3 },
+						{ "op" : "spline_tcb" }
+					]
+				},
+				{
+					"output" : "Drink15:/data/esha/Cocktails/Cocktail_Margarita_Low/SH2002_CocktailMargarita.dsf#Drink15?extra/studio_node_channels/channels/Visible",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMargarita:#Tilt%20Control?value" },
+						{ "op" : "push", "val" : [ 0, -1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 1, 1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : [ 2, -1, 0, 0, 0 ] },
+						{ "op" : "push", "val" : 3 },
+						{ "op" : "spline_tcb" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Tilt Control-1",
+				"url" : "#Tilt%20Control"
+			}
+		]
+	}
+}

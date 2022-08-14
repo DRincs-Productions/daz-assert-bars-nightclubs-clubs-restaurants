@@ -1,0 +1,44 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/alias_SH2002_Umbrella_694_Close.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T13:05:17Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Close",
+			"name" : "Close",
+			"parent" : "/data/esha/Cocktails/DecoUmbrella/SH2002_Umbrella_694.dsf#SH2002_Umbrella_694",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "alias",
+				"name" : "Close",
+				"label" : "Close",
+				"target_channel" : "Stick:/data/esha/Cocktails/DecoUmbrella/Morphs/esha/Base/Stick_Close.dsf#Close?value"
+			},
+			"group" : "/Actor/Style & Adjustments"
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Close-1",
+				"url" : "#Close"
+			}
+		]
+	}
+}

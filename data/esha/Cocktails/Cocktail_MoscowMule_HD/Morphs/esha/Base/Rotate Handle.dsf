@@ -1,0 +1,90 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Cocktail_MoscowMule_HD/Morphs/esha/Base/Rotate%20Handle.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-04-30T16:48:25Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Rotate Handle",
+			"name" : "Rotate Handle",
+			"parent" : "/data/esha/Cocktails/Cocktail_MoscowMule_HD/SH2002_CocktailMule.dsf#SH2002_CocktailMule",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Rotate Handle",
+				"label" : "Rotate Handle",
+				"value" : 0,
+				"min" : -360,
+				"max" : 360,
+				"clamped" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style",
+			"formulas" : [
+				{
+					"output" : "Glass:/data/esha/Cocktails/Cocktail_MoscowMule_HD/SH2002_CocktailMule.dsf#Glass?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMule:#Rotate%20Handle?value" },
+						{ "op" : "push", "val" : 1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Additions:/data/esha/Cocktails/Cocktail_MoscowMule_HD/SH2002_CocktailMule.dsf#Additions?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMule:#Rotate%20Handle?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Bubbles:/data/esha/Cocktails/Cocktail_MoscowMule_HD/SH2002_CocktailMule.dsf#Bubbles?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMule:#Rotate%20Handle?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Drink:/data/esha/Cocktails/Cocktail_MoscowMule_HD/SH2002_CocktailMule.dsf#Drink?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMule:#Rotate%20Handle?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Deco:/data/esha/Cocktails/Cocktail_MoscowMule_HD/SH2002_CocktailMule.dsf#Deco?rotation/y",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_CocktailMule:#Rotate%20Handle?value" },
+						{ "op" : "push", "val" : -1 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Rotate Handle-1",
+				"url" : "#Rotate%20Handle"
+			}
+		]
+	}
+}

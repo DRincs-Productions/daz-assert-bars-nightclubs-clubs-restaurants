@@ -1,0 +1,67 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/esha/Cocktails/Physalis/Morphs/esha/Base/Leaf%204%20Close.dsf",
+		"type" : "modifier",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-10T10:55:29Z"
+	},
+	"modifier_library" : [
+		{
+			"id" : "Leaf 4 Close",
+			"name" : "Leaf 4 Close",
+			"parent" : "/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#SH2002_Physalis",
+			"presentation" : {
+				"type" : "",
+				"label" : "",
+				"description" : "",
+				"icon_large" : "",
+				"colors" : [ [ 0.1607843, 0.1607843, 0.1607843 ], [ 1, 1, 1 ] ]
+			},
+			"channel" : {
+				"id" : "value",
+				"type" : "float",
+				"name" : "Leaf 4 Close",
+				"label" : "Leaf 4 Close",
+				"value" : 0,
+				"min" : -1,
+				"max" : 1,
+				"clamped" : true,
+				"display_as_percent" : true,
+				"step_size" : 0.04
+			},
+			"group" : "/Actor/Style & Adjustments",
+			"formulas" : [
+				{
+					"output" : "Leaf4:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf4?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaf%204%20Close?value" },
+						{ "op" : "push", "val" : 115 },
+						{ "op" : "mult" }
+					]
+				},
+				{
+					"output" : "Leaf4a:/data/esha/Cocktails/Physalis/SH2002_Physalis.dsf#Leaf4a?rotation/x",
+					"operations" : [
+						{ "op" : "push", "url" : "SH2002_Physalis:#Leaf%204%20Close?value" },
+						{ "op" : "push", "val" : 87 },
+						{ "op" : "mult" }
+					]
+				}
+			]
+		}
+	],
+	"scene" : {
+		"modifiers" : [
+			{
+				"id" : "Leaf 4 Close-1",
+				"url" : "#Leaf%204%20Close"
+			}
+		]
+	}
+}
