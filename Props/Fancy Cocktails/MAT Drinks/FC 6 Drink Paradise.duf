@@ -1,0 +1,1026 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/Cocktails/MAT%20Drinks/Paradise.duf",
+		"type" : "preset_material",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-03-09T14:16:09Z"
+	},
+	"scene" : {
+		"materials" : [
+			{
+				"url" : "/data/esha/IrayShaders/Cocktails/Gradient%20Liquid.dsf#Gradient%20Liquid",
+				"groups" : [ "drink" ],
+				"diffuse" : {
+					"channel" : {
+						"id" : "diffuse",
+						"type" : "float_color",
+						"name" : "Diffuse Color",
+						"value" : [ 0.7529414, 0.7529414, 0.7529414 ]
+					},
+					"group" : "/Base/Diffuse/Reflection"
+				},
+				"extra" : [
+					{
+						"type" : "studio/material/daz_brick"
+					},
+					{
+						"type" : "studio_material_channels",
+						"channels" : [
+							{
+								"channel" : {
+									"id" : "Metallic Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Diffuse Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Translucency Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "SSS Reflectance Tint",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Layered Weight",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Reflectivity",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Refraction Roughness",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Glossy Anisotropy Rotations",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Bump Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Normal Map",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Transmitted Color",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "Displacement Strength",
+									"type" : "float"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "top",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "bottom",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "color_2",
+									"type" : "float_color"
+								}
+							},
+							{
+								"channel" : {
+									"id" : "BlendControl",
+									"type" : "float",
+									"max" : 5
+								}
+							}
+						]
+					}
+				]
+			}
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Tags/value",
+				"keys" : [ [ 0, "" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/OutlineColorID/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Line%20Preview%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Line%20Start%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Line%20End%20Width/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Line%20UV%20Width/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Render%20Priority/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Propagate%20Priority/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Metallic%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/value",
+				"keys" : [ [ 0, [ 1, 0.972549, 0.09803922 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?diffuse/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/cond2/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Diffuse%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Base%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/value",
+				"keys" : [ [ 0, [ 1, 0.9435499, 0.7230695 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Translucency%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/condTranslCol/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Invert%20Transmission%20Normal/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/SSS%20Reflectance%20Tint/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/value5/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/value6/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/value/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/weight/value",
+				"keys" : [ [ 0, 0.25 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Layered%20Weight/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Share%20Glossy%20Inputs/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/value",
+				"keys" : [ [ 0, [ 1, 1, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Color%20Effect/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/value",
+				"keys" : [ [ 0, 0.5 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Reflectivity/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Index/value",
+				"keys" : [ [ 0, 1.35 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Abbe/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Refraction%20Roughness/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/value2/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/value3/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/value4/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/weight2/value",
+				"keys" : [ [ 0, 0.05 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Glossy%20Anisotropy%20Rotations/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Bump%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Normal%20Map/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Normal%20Map/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Normal%20Map/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Normal%20Map/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Thin%20Walled/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Transmitted%20Color/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Scattering%20Measurement%20Distance/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/SSS%20Amount/value",
+				"keys" : [ [ 0, 0.05 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/SSS%20Direction/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Displacement%20Strength/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Minimum%20Displacement/value",
+				"keys" : [ [ 0, -0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Maximum%20Displacement/value",
+				"keys" : [ [ 0, 0.1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/SubD%20Displacement%20Level/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Round%20Corners%20Radius/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Round%20Corners%20Across%20Materials/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Round%20Corners%20Roundness/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Horizontal%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Horizontal%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Vertical%20Tiles/value",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Vertical%20Offset/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Roughness%20Squared/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/BSDF%20Type/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/value",
+				"keys" : [ [ 0, [ 1, 0.1490196, 0.5176471 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/top/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/value",
+				"keys" : [ [ 0, [ 1, 0.8, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/bottom/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/value",
+				"keys" : [ [ 0, [ 0.09411765, 0.8039216, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image",
+				"keys" : [ [ 0, null ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/scale",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/grayscale_mode",
+				"keys" : [ [ 0, "average" ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/invert",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/horizontal_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/horizontal_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/vertical_tiles",
+				"keys" : [ [ 0, 1 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/color_2/image_modification/vertical_tiling_offset",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Blend/value",
+				"keys" : [ [ 0, 0.6 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/BlendControl/value",
+				"keys" : [ [ 0, 3 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/coordinate_system/value",
+				"keys" : [ [ 0, 2 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/texture_space2/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/translation/value",
+				"keys" : [ [ 0, [ 0, 0, 0 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/scaling/value",
+				"keys" : [ [ 0, [ 1, 0.8, 1 ] ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Radians/value",
+				"keys" : [ [ 0, 0 ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Smooth%20On/value",
+				"keys" : [ [ 0, true ] ]
+			},
+			{
+				"url" : "name://@selection#materials/drink:?extra/studio_material_channels/channels/Smooth%20Angle/value",
+				"keys" : [ [ 0, 89.9 ] ]
+			}
+		]
+	}
+}

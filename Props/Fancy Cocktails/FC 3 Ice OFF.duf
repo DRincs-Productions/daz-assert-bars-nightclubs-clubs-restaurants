@@ -1,0 +1,40 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/Cocktails/FC%203%20Ice%20ON.duf",
+		"type" : "preset_properties",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-05-01T04:37:34Z"
+	},
+	"scene" : {
+		"materials" : [
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection/Ice1:?extra/studio_node_channels/channels/Visible/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection/Ice2:?extra/studio_node_channels/channels/Visible/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection/Ice3:?extra/studio_node_channels/channels/Visible/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection/Ice4:?extra/studio_node_channels/channels/Visible/value",
+				"keys" : [ [ 0, false ] ]
+			},
+			{
+				"url" : "name://@selection/Ice5:?extra/studio_node_channels/channels/Visible/value",
+				"keys" : [ [ 0, false ] ]
+			}
+		]
+	}
+}

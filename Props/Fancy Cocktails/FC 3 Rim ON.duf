@@ -1,0 +1,24 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/Cocktails/FC%203%20Rim%20OFF.duf",
+		"type" : "preset_properties",
+		"contributor" : {
+			"author" : "esha",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-05-01T04:36:17Z"
+	},
+	"scene" : {
+		"materials" : [
+		],
+		"animations" : [
+			{
+				"url" : "name://@selection/Rim:?extra/studio_node_channels/channels/Visible/value",
+				"keys" : [ [ 0, true ] ]
+			}
+		]
+	}
+}
