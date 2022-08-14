@@ -1,0 +1,540 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/SoulessEmpathy/Night_Lounge/floor/floor.dsf",
+		"type" : "prop",
+		"contributor" : {
+			"author" : "",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2013-10-18T00:11:29Z"
+	},
+	"geometry_library" : [
+		{
+			"id" : "geometry",
+			"name" : "geometry",
+			"type" : "polygon_mesh",
+			"vertices" : {
+				"count" : 95,
+				"values" : [
+					[ 1001.273, 535.4913, -73.26696 ],
+					[ 748.1831, 535.4913, -73.26696 ],
+					[ 1001.273, 535.4913, -818.1193 ],
+					[ 748.1831, 535.4913, -818.1193 ],
+					[ -852.5341, -145.4004, 542.8348 ],
+					[ -852.5341, -145.4004, 515.0654 ],
+					[ -852.5341, -147.9881, 542.8348 ],
+					[ -852.5341, -145.9179, 546.2966 ],
+					[ -852.5341, -145.4004, 545.7791 ],
+					[ -852.5341, -147.4706, 546.2966 ],
+					[ -852.5341, -147.9881, 545.7791 ],
+					[ -852.5341, -160.6474, 542.8348 ],
+					[ -1456.009, -130.1535, -1588.429 ],
+					[ 1351.546, -130.1535, -1588.429 ],
+					[ -852.5341, -130.1535, 487.2959 ],
+					[ -852.5341, -130.1535, -1588.429 ],
+					[ -1456.009, -130.1535, 131.1675 ],
+					[ -852.5341, -130.1535, 131.1675 ],
+					[ 1351.546, -130.1535, 131.1675 ],
+					[ -852.5341, -130.1535, 515.0654 ],
+					[ -852.5341, -132.7411, 515.0654 ],
+					[ -852.5341, -130.671, 518.5272 ],
+					[ -852.5341, -130.1535, 518.0096 ],
+					[ -852.5341, -132.2236, 518.5272 ],
+					[ -852.5341, -132.7411, 518.0096 ],
+					[ 737.3909, -130.1535, -1588.429 ],
+					[ 737.3909, -130.1535, 131.1675 ],
+					[ 737.3909, -130.1535, 487.2959 ],
+					[ 737.3909, -130.1535, 515.0654 ],
+					[ 737.3909, -130.1535, 518.0096 ],
+					[ 737.3909, -130.671, 518.5272 ],
+					[ 737.391, -132.2236, 518.5272 ],
+					[ 737.391, -132.7411, 518.0096 ],
+					[ 737.391, -132.7411, 515.0654 ],
+					[ 737.3909, -145.4004, 515.0654 ],
+					[ 737.3909, -145.4004, 542.8348 ],
+					[ 737.3909, -145.4004, 545.7791 ],
+					[ 737.3909, -145.9179, 546.2966 ],
+					[ 737.391, -147.4706, 546.2966 ],
+					[ 737.391, -147.9881, 545.7791 ],
+					[ 737.391, -147.9881, 542.8348 ],
+					[ 737.3909, -160.6474, 542.8348 ],
+					[ 1351.546, -130.1535, -169.9937 ],
+					[ 737.3909, -130.1535, -169.9936 ],
+					[ -852.5341, -130.1535, -169.9937 ],
+					[ -1456.009, -130.1535, -169.9937 ],
+					[ 1351.546, -130.1535, -429.9486 ],
+					[ 737.3909, -130.1535, -429.9485 ],
+					[ -852.5341, -130.1535, -429.9485 ],
+					[ -1456.009, -130.1535, -429.9486 ],
+					[ -2068.722, -130.1535, -429.9486 ],
+					[ -2068.722, -130.1535, -169.9937 ],
+					[ -1125.245, -535.4913, 432.114 ],
+					[ -840.6232, -535.4913, 432.114 ],
+					[ -1125.245, -535.4913, -365.5117 ],
+					[ -840.6232, -535.4913, -365.5117 ],
+					[ -1079.652, -160.6474, 1588.429 ],
+					[ 973.1867, -160.6474, 1588.429 ],
+					[ -1079.652, -160.6474, 982.3669 ],
+					[ 973.1867, -160.6474, 982.3669 ],
+					[ -1079.652, -160.6474, 1137.665 ],
+					[ 973.1867, -160.6474, 1137.665 ],
+					[ 2068.722, -160.6474, 1137.665 ],
+					[ 2068.722, -160.6474, 982.3669 ],
+					[ 470.8501, -160.6474, 1588.429 ],
+					[ 470.8501, -160.6474, 1137.665 ],
+					[ 470.8501, -160.6474, 982.3669 ],
+					[ 653.8861, -160.6474, 1588.429 ],
+					[ 653.8861, -160.6474, 1137.665 ],
+					[ 653.8861, -160.6474, 982.3669 ],
+					[ -877.492, -160.6474, 1588.429 ],
+					[ -877.492, -160.6474, 1137.665 ],
+					[ -877.492, -160.6474, 982.3669 ],
+					[ 973.1867, -160.6474, 926.9862 ],
+					[ 653.8861, -160.6474, 926.9862 ],
+					[ 470.8501, -160.6474, 926.9862 ],
+					[ -877.4921, -160.6474, 926.9862 ],
+					[ -1079.652, -160.6474, 926.9862 ],
+					[ 973.1867, -160.6474, 508.9938 ],
+					[ 653.8861, -160.6474, 508.9938 ],
+					[ 470.8501, -160.6474, 508.9938 ],
+					[ -877.492, -160.6474, 508.9938 ],
+					[ -53.23254, -160.6474, 1588.429 ],
+					[ -53.23254, -160.6474, 1137.665 ],
+					[ -53.23254, -160.6474, 982.3669 ],
+					[ -53.23261, -160.6474, 926.9862 ],
+					[ -53.23254, -160.6474, 508.9938 ],
+					[ 2068.722, -160.6474, 926.9862 ],
+					[ 973.1867, -160.6474, 1190.846 ],
+					[ 653.8861, -160.6474, 1190.846 ],
+					[ 470.8501, -160.6474, 1190.846 ],
+					[ -53.23254, -160.6474, 1190.846 ],
+					[ -877.492, -160.6474, 1190.846 ],
+					[ -1079.652, -160.6474, 1190.846 ],
+					[ 2068.722, -160.6474, 1190.846 ]
+				]
+			},
+			"polygon_groups" : {
+				"count" : 1,
+				"values" : [
+					"Default"
+				]
+			},
+			"polygon_material_groups" : {
+				"count" : 2,
+				"values" : [
+					"WoodFloor",
+					"StoneFloor"
+				]
+			},
+			"polylist" : {
+				"count" : 54,
+				"values" : [
+					[ 0, 0, 1, 0, 2, 3 ],
+					[ 0, 0, 17, 44, 45, 16 ],
+					[ 0, 0, 18, 42, 43, 26 ],
+					[ 0, 0, 26, 43, 44, 17 ],
+					[ 0, 0, 27, 26, 17, 14 ],
+					[ 0, 0, 28, 27, 14, 19 ],
+					[ 0, 0, 29, 28, 19, 22 ],
+					[ 0, 0, 22, 21, 30, 29 ],
+					[ 0, 0, 31, 30, 21, 23 ],
+					[ 0, 0, 23, 24, 32, 31 ],
+					[ 0, 0, 20, 33, 32, 24 ],
+					[ 0, 0, 34, 33, 20, 5 ],
+					[ 0, 0, 35, 34, 5, 4 ],
+					[ 0, 0, 36, 35, 4, 8 ],
+					[ 0, 0, 8, 7, 37, 36 ],
+					[ 0, 0, 38, 37, 7, 9 ],
+					[ 0, 0, 9, 10, 39, 38 ],
+					[ 0, 0, 6, 40, 39, 10 ],
+					[ 0, 0, 41, 40, 6, 11 ],
+					[ 0, 0, 42, 46, 47, 43 ],
+					[ 0, 0, 44, 43, 47, 48 ],
+					[ 0, 0, 45, 44, 48, 49 ],
+					[ 0, 0, 46, 13, 25, 47 ],
+					[ 0, 0, 48, 47, 25, 15 ],
+					[ 0, 0, 49, 48, 15, 12 ],
+					[ 0, 0, 45, 49, 50, 51 ],
+					[ 0, 0, 52, 53, 55, 54 ],
+					[ 0, 1, 76, 77, 58, 72 ],
+					[ 0, 1, 72, 58, 60, 71 ],
+					[ 0, 1, 92, 93, 56, 70 ],
+					[ 0, 1, 59, 61, 62, 63 ],
+					[ 0, 1, 89, 90, 64, 67 ],
+					[ 0, 1, 69, 66, 65, 68 ],
+					[ 0, 1, 74, 75, 66, 69 ],
+					[ 0, 1, 88, 89, 67, 57 ],
+					[ 0, 1, 59, 69, 68, 61 ],
+					[ 0, 1, 73, 74, 69, 59 ],
+					[ 0, 1, 91, 92, 70, 82 ],
+					[ 0, 1, 84, 72, 71, 83 ],
+					[ 0, 1, 85, 76, 72, 84 ],
+					[ 0, 1, 78, 79, 74, 73 ],
+					[ 0, 1, 79, 80, 75, 74 ],
+					[ 0, 1, 86, 81, 76, 85 ],
+					[ 0, 1, 90, 91, 82, 64 ],
+					[ 0, 1, 66, 84, 83, 65 ],
+					[ 0, 1, 75, 85, 84, 66 ],
+					[ 0, 1, 80, 86, 85, 75 ],
+					[ 0, 1, 59, 63, 87, 73 ],
+					[ 0, 1, 61, 68, 89, 88 ],
+					[ 0, 1, 68, 65, 90, 89 ],
+					[ 0, 1, 65, 83, 91, 90 ],
+					[ 0, 1, 83, 71, 92, 91 ],
+					[ 0, 1, 71, 60, 93, 92 ],
+					[ 0, 1, 62, 61, 88, 94 ]
+				]
+			},
+			"default_uv_set" : "/data/SoulessEmpathy/Night_Lounge/floor/UV%20Sets/SoulessEmpathy/Base/default.dsf#default",
+			"extra" : [
+				{
+					"type" : "studio_geometry_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "SubDIALevel",
+								"type" : "int",
+								"name" : "SubDIALevel",
+								"label" : "SubDivision Level",
+								"visible" : false,
+								"value" : 1,
+								"min" : 0,
+								"max" : 2,
+								"clamped" : true,
+								"step_size" : 1
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDAlgorithmControl",
+								"type" : "enum",
+								"name" : "SubDAlgorithmControl",
+								"label" : "SubDivision Algorithm",
+								"visible" : false,
+								"value" : 0,
+								"enum_values" : [ "Catmark", "Bilinear", "Loop", "Catmull-Clark (Legacy)" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						},
+						{
+							"channel" : {
+								"id" : "SubDEdgeInterpolateLevel",
+								"type" : "enum",
+								"name" : "SubDEdgeInterpolateLevel",
+								"label" : "Edge Interpolation",
+								"visible" : false,
+								"value" : 2,
+								"enum_values" : [ "Soft Corners And Edges", "Sharp Edges and Corners", "Sharp Edges" ]
+							},
+							"group" : "/General/Mesh Resolution"
+						}
+					]
+				}
+			]
+		}
+	],
+	"node_library" : [
+		{
+			"id" : "floor",
+			"name" : "floor",
+			"type" : "node",
+			"label" : "floor",
+			"rotation_order" : "XYZ",
+			"inherits_scale" : true,
+			"center_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrigin",
+					"label" : "X Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrigin",
+					"label" : "Y Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrigin",
+					"label" : "Z Origin",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"end_point" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xEnd",
+					"label" : "X End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yEnd",
+					"label" : "Y End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zEnd",
+					"label" : "Z End",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"orientation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "xOrientation",
+					"label" : "X Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "yOrientation",
+					"label" : "Y Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "zOrientation",
+					"label" : "Z Orientation",
+					"visible" : false,
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.01
+				}
+			],
+			"rotation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XRotate",
+					"label" : "X Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YRotate",
+					"label" : "Y Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZRotate",
+					"label" : "Z Rotate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 0.5
+				}
+			],
+			"translation" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XTranslate",
+					"label" : "X Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YTranslate",
+					"label" : "Y Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZTranslate",
+					"label" : "Z Translate",
+					"value" : 0,
+					"min" : -10000,
+					"max" : 10000,
+					"step_size" : 1
+				}
+			],
+			"scale" : [
+				{
+					"id" : "x",
+					"type" : "float",
+					"name" : "XScale",
+					"label" : "X Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "y",
+					"type" : "float",
+					"name" : "YScale",
+					"label" : "Y Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				},
+				{
+					"id" : "z",
+					"type" : "float",
+					"name" : "ZScale",
+					"label" : "Z Scale",
+					"value" : 1,
+					"min" : -10000,
+					"max" : 10000,
+					"display_as_percent" : true,
+					"step_size" : 0.005
+				}
+			],
+			"general_scale" : {
+				"id" : "general_scale",
+				"type" : "float",
+				"name" : "Scale",
+				"label" : "Scale",
+				"value" : 1,
+				"min" : -10000,
+				"max" : 10000,
+				"display_as_percent" : true,
+				"step_size" : 0.005
+			},
+			"extra" : [
+				{
+					"type" : "studio_node_channels",
+					"channels" : [
+						{
+							"channel" : {
+								"id" : "Point At",
+								"type" : "numeric_node",
+								"name" : "Point At",
+								"label" : "Point At",
+								"value" : 0,
+								"min" : 0,
+								"max" : 1,
+								"clamped" : true,
+								"step_size" : 0.01,
+								"needs_node" : true,
+								"node" : null
+							},
+							"group" : "/General/Misc"
+						},
+						{
+							"channel" : {
+								"id" : "Renderable",
+								"type" : "bool",
+								"name" : "Renderable",
+								"label" : "Visible in Render",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Cast Shadows",
+								"type" : "bool",
+								"name" : "Cast Shadows",
+								"label" : "Cast Shadows",
+								"value" : true
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Render Priority",
+								"type" : "enum",
+								"name" : "Render Priority",
+								"label" : "Render Priority",
+								"visible" : false,
+								"value" : 3,
+								"enum_values" : [ "Lowest", "Low", "Below Normal", "Normal", "Above Normal", "High", "Highest" ]
+							},
+							"group" : "/Display/Rendering"
+						},
+						{
+							"channel" : {
+								"id" : "Visible",
+								"type" : "bool",
+								"name" : "Visible",
+								"label" : "Visible",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						},
+						{
+							"channel" : {
+								"id" : "Selectable",
+								"type" : "bool",
+								"name" : "Selectable",
+								"label" : "Selectable",
+								"value" : true
+							},
+							"group" : "/Display/Scene View"
+						}
+					]
+				}
+			]
+		}
+	]
+}
