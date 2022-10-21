@@ -1,0 +1,41 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Fugazi1968/FG%20Food%20Court/FG%20Front%20Wall/UV%20Sets/Fugazi1968/Base/default.dsf",
+		"type" : "uv_set",
+		"contributor" : {
+			"author" : "Fugazi1968",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-17T22:54:02Z"
+	},
+	"uv_set_library" : [
+		{
+			"id" : "default",
+			"name" : "default",
+			"label" : "Default UVs",
+			"vertex_count" : 4,
+			"uvs" : {
+				"count" : 4,
+				"values" : [
+					[ -2.3971, -0.396 ],
+					[ 3.3971, -0.396 ],
+					[ 3.3971, 0.6013 ],
+					[ -2.3971, 0.6013 ]
+				]
+			},
+			"polygon_vertex_indices" : [
+			]
+		}
+	],
+	"scene" : {
+		"uvs" : [
+			{
+				"id" : "default-1",
+				"url" : "#default"
+			}
+		]
+	}
+}

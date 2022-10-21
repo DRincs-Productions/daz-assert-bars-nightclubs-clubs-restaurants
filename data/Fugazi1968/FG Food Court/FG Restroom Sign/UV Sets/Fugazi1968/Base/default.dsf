@@ -1,0 +1,53 @@
+{
+	"file_version" : "0.6.0.0",
+	"asset_info" : {
+		"id" : "/data/Fugazi1968/FG%20Food%20Court/FG%20Restroom%20Sign/UV%20Sets/Fugazi1968/Base/default.dsf",
+		"type" : "uv_set",
+		"contributor" : {
+			"author" : "Fugazi1968",
+			"email" : "",
+			"website" : ""
+		},
+		"revision" : "1.0",
+		"modified" : "2020-12-17T22:53:50Z"
+	},
+	"uv_set_library" : [
+		{
+			"id" : "default",
+			"name" : "default",
+			"label" : "Default UVs",
+			"vertex_count" : 8,
+			"uvs" : {
+				"count" : 12,
+				"values" : [
+					[ 0.976721, 0.956668 ],
+					[ 0.976721, 0.0433321 ],
+					[ 0.0232792, 0.0433321 ],
+					[ 0.0232792, 0.956668 ],
+					[ 1, 0.956668 ],
+					[ 1, 0.0433321 ],
+					[ 0.0232792, 1 ],
+					[ 5.96046e-08, 0.0433321 ],
+					[ 0.976721, 1 ],
+					[ 5.96046e-08, 0.956668 ],
+					[ 0.0232792, 0 ],
+					[ 0.976721, 0 ]
+				]
+			},
+			"polygon_vertex_indices" : [
+				[ 2, 4, 8 ],
+				[ 4, 5, 11 ],
+				[ 3, 6, 9 ],
+				[ 4, 7, 10 ]
+			]
+		}
+	],
+	"scene" : {
+		"uvs" : [
+			{
+				"id" : "default-1",
+				"url" : "#default"
+			}
+		]
+	}
+}
